@@ -26,6 +26,7 @@ namespace CAIGUIAFECHAS_EJR28
                 if (DateTime.IsLeapYear(salida.Year))
                 {
                     Console.WriteLine($"{salida.Year} corresponde a un año bisiesto");
+                    break;
                 }
                 else
                 {
