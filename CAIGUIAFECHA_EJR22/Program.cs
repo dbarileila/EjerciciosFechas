@@ -12,7 +12,8 @@ namespace CAIGUIAFECHA_EJR22
         {
             //Presente al usuario la fecha actual con el siguiente formato: dd/MM/yyyy
 
-            Console.WriteLine($" Fecha actual: {DateTime.Today.ToString("dd/MM/yyyy")}");
+            var fecha = DateTime.Now.ToString("dd/MM/yyyy");
+            Console.WriteLine($" Fecha actual: {fecha}");
 
             Console.ReadKey();
 
